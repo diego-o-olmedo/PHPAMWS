@@ -63,13 +63,13 @@ You can use one of this method to install the scanner downloading it from github
 
 Go on GitHub page and press on Releases tab or download the raw file from:
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Build-important?style=for-the-badge)](https://raw.githubusercontent.com/marcocesarato/PHP-Antimalware-Scanner/master/dist/scanner)
+[![Download](https://img.shields.io/badge/Download-Latest%20Build-important?style=for-the-badge)](https://raw.githubusercontent.com/diego-o-olmedo/PHP-AMWS/master/dist/scanner)
 
 #### Console
 
 1. Run this command from console (scanner will be download on your current directory):
 
-   `wget https://raw.githubusercontent.com/marcocesarato/PHP-Antimalware-Scanner/master/dist/scanner --no-check-certificate`
+   `wget https://raw.githubusercontent.com/diego-o-olmedo/PHPAMWS/master/dist/scanner --no-check-certificate`
 
 2. Run the scanner:
 
@@ -80,7 +80,7 @@ Go on GitHub page and press on Releases tab or download the raw file from:
    Run this command:
 
     ```sh
-    wget https://raw.githubusercontent.com/marcocesarato/PHP-Antimalware-Scanner/master/dist/scanner --no-check-certificate -O /usr/bin/awscan.phar && \
+    wget https://raw.githubusercontent.com/diego-o-olmedo/PHPAMWS/master/dist/scanner --no-check-certificate -O /usr/bin/awscan.phar && \
     printf "#!/bin/bash\nphp /usr/bin/awscan.phar \$@" > /usr/bin/awscan && \
     chmod u+x,g+x /usr/bin/awscan.phar && \
     chmod u+x,g+x /usr/bin/awscan && \
@@ -192,3 +192,6 @@ object(stdClass) (7) {
 ### Interactive CLI
 
 ![Screen Full](images/screenshot_full.png)
+
+#### Git2
+[GH](https://github.com/marcocesarato/PHP-Antimalware-Scanner)
